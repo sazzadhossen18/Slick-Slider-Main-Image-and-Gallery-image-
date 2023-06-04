@@ -1,0 +1,151 @@
+<div class="custom-image-slider"  >
+
+ <div class="main-image-slider slider-for">
+   
+   <div class="mail-image">
+     <img src="https://cdn.shopify.com/s/files/1/0729/2043/2915/files/app_images_resizable_IMG-0237-1_e7a5040a_1685574242961_2000_1512x.webp?v=1685857863">
+   </div>
+    <div class="mail-image">
+     <img src="https://cdn.shopify.com/s/files/1/0729/2043/2915/files/app_images_resizable_IMG-0237-1_e7a5040a_1685574242961_2000_1512x.webp?v=1685857863">
+   </div>
+    <div class="mail-image">
+     <img src="https://cdn.shopify.com/s/files/1/0729/2043/2915/files/app_images_resizable_IMG-0237-1_e7a5040a_1685574242961_2000_1512x.webp?v=1685857863">
+   </div>
+    <div class="mail-image">
+     <img src="https://www.powrcdn.com/app_images%2Fresizable%2Fejemplo-fo_c369c4e2_1685574296757_2000.png">
+   </div>
+   
+ </div>
+
+ <div class="thubnail-image-slider slider-nav">
+   
+   <div class="mail-image">
+     <img src="https://cdn.shopify.com/s/files/1/0729/2043/2915/files/app_images_resizable_IMG-0237-1_e7a5040a_1685574242961_2000_1512x.webp?v=1685857863">
+   </div>
+
+   <div class="mail-image">
+     <img src="https://cdn.shopify.com/s/files/1/0729/2043/2915/files/app_images_resizable_IMG-0237-1_e7a5040a_1685574242961_2000_1512x.webp?v=1685857863">
+   </div>
+   <div class="mail-image">
+     <img src="https://cdn.shopify.com/s/files/1/0729/2043/2915/files/app_images_resizable_IMG-0237-1_e7a5040a_1685574242961_2000_1512x.webp?v=1685857863">
+   </div>
+   <div class="mail-image">
+     <img src="https://www.powrcdn.com/app_images%2Fresizable%2Fejemplo-fo_c369c4e2_1685574296757_2000.png">
+   </div>
+  
+   </div>
+
+</div>
+
+<style>
+
+.main-image-slider.slider-for  .slick-arrow {
+ 
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    line-height: 30px;
+    font-size: 0px!important;
+ 
+}
+  
+.main-image-slider.slider-for button.slick-prev.slick-arrow {
+    opacity: 1!important;
+}
+
+.main-image-slider.slider-for  button.slick-next.slick-arrow {
+ opacity: 1!important;
+  background:transparent;
+}
+.main-image-slider.slider-for button.slick-prev.slick-arrow {
+    opacity: 1!important;
+    background: transparent;
+ 
+}
+.main-image-slider.slider-for .slick-prev {
+    left: 3px;
+}
+
+.main-image-slider.slider-for .slick-next {
+    right: 3px;
+}
+
+.main-image-slider.slider-for button.slick-arrow {
+    margin-top: 0px;
+} 
+.main-image-slider.slider-for .slick-arrow:before, .slick-arrow:after {
+    font-size: 30px!important;
+}
+
+.main-image-slider.slider-for .slick-slide img {
+    border-radius: 0!important;
+}
+
+.thubnail-image-slider.slider-nav .slick-slide img {
+    border-radius: 0!important;
+}
+.thubnail-image-slider.slider-nav.slick-initialized.slick-slider {
+    margin-top: 20px;
+}
+
+.thubnail-image-slider.slider-nav .mail-image.slick-slide img{
+    border-radius: 0;
+  width: 93%;
+}
+
+.thubnail-image-slider.slider-nav   .mail-image.slick-slide.slick-current img{
+      border: 1px solid #000;
+    padding: 2px;
+}
+
+
+</style>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+
+
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+<script>
+ $('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: true,
+  fade: true,
+  asNavFor: '.slider-nav'
+});
+$('.slider-nav').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+  dots: true,
+   arrows: false,
+  centerMode: true,
+  focusOnSelect: true
+});
+	
+</script>
+
+
+
+
+
+
+
+
+
